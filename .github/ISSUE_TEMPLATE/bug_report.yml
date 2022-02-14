@@ -1,0 +1,26 @@
+name: Bug Report
+description: Create a report to help us fix and identify bugs.
+labels: [kind: bug 🐛]
+body:
+    - type: textarea
+      attributes:
+          label: What steps will reproduce the problem?
+          placeholder: |
+              1.
+              2.
+              3.
+      validations:
+          required: true
+    - type: textarea
+      attributes:
+          label: What is the expected behaviour?
+          description: What you expected to see.
+      validations:
+          required: true
+    - type: textarea
+      attributes:
+          label: Where is this happening?
+          description: Where is this issue happening
+          placeholder: Discord, Towny..
+      validations:
+          required: true
